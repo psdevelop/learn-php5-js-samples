@@ -1,0 +1,251 @@
+.paragraph	{
+	color: #0000FF;
+	font-boldify: bold;
+	font-family: Arial;
+}
+
+.base {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  font: normal normal normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(-90deg, rgba(255,255,255,1) 0, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%), rgba(87,247,7,1);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%), rgba(87,247,7,1);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%), rgba(87,247,7,1);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+div.header     {
+    height: 170px;
+    color: #cc3300;
+    background-color: #cc3300;
+    width: 100%;
+    padding: 3px; 
+    
+  -o-background-size: 100% 100%; -webkit-background-size: 100% 100%; -khtml-background-size: 100% 100%; background-size: 100% 100%;
+ 
+  background: -moz-linear-gradient(top,#ffff99,#00cc33);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffff99), to(#00cc33));
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr=#ffff99,endColorstr=#00cc33,GradientType=0); zoom: 1;
+  background: linear-gradient(top,#ffff99,#00cc33);
+ 
+  background-clip: border-box; -moz-background-clip: border; -webkit-background-clip: border-box;
+  background-origin: border-box; -moz-background-origin: border; -webkit-background-origin: border-box;
+}
+
+a.a_base {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 160px;
+  padding: 20px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+  font: normal normal normal 16px/1 Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgba(19,221,19,1);
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(40,40,40,1) ;
+  box-shadow: 1px 1px 1px 0 rgba(40,40,40,1) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+
+body    {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_table {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+td.module_column {
+    width: 200px;
+    padding: 10px;
+    background-color: #00cc33;
+}
+
+td.module_center {
+    padding: 10px;
+    background-color: #ffff99;
+}
+
+.news_header    {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight:bold;
+    background-color: #0099cc;
+    width: 190px;
+    padding: 4px;
+}
+
+.news_short_text    {
+    font-size: 14px;
+    color: black;
+    background-color: #ffff99;
+    padding: 3px;
+}
+
+.news_bottom    {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0099cc;
+    width: 190px;
+    padding: 4px;
+}
+
+.news_bottom_central    {
+    font-size: 14px;
+    color: #cccccc;
+    padding: 4px;
+}
+
+.site_foother   {
+    color: #999999;
+    font-size: 14px;
+    font-style: italic;
+    padding: 10px;
+}
+
+a   {
+    color: #330066;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff3333;
+}
+
+ul.menu li  {
+    padding: 5px;
+}
+
+ul.menu li a   {
+    color: #330066;
+    font-size: 14px;
+    margin: 2px;
+    background-color: #00ccff;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    -moz-border-radius: 10px; 
+    /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 10px; 
+    /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:10px; 
+    /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 10px; 
+    /* закругление углов для всех, кто понимает */
+}
+
+ul.menu li a:hover {
+    text-decoration: none;
+    color: #ff3333;
+    background-color: #ffff99;
+}
+
+ul.menu li a:link  {
+    font-style: normal;
+}
+
+ul.menu li a:visited   {
+    
+}
+
+ul.horizontal_menu  {
+    float: left;
+}
+
+ul.horizontal_menu li  {
+    padding: 5px;
+    display: inline;
+    padding-left: 40px;
+}
+
+ul.horizontal_menu li a   {
+    color: #330066;
+    font-size: 14px;
+    margin: 2px;
+    background-color: #00ccff;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    -moz-border-radius: 10px; 
+    /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 10px; 
+    /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:10px; 
+    /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 10px; 
+    /* закругление углов для всех, кто понимает */
+}
+
+ul.horizontal_menu li a:hover {
+    text-decoration: none;
+    color: #ff3333;
+    background-color: #ffff99;
+}
+
+ul.horizontal_menu li a:link  {
+    font-style: normal;
+}
+
+ul.horizontal_menu li a:visited   {
+    
+}
+
+h1.article_title    {
+    font-weight: bold;
+    color: #666600;
+}
+
+p.article_body  {
+    color: #666600;
+}
+
+div.article h1    {
+    font-weight: bold;
+    color: black;
+}
+
+div.article p {
+    color: black;
+}
+
+
+.article_foother    {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #cccccc;
+    padding: 4px;
+}

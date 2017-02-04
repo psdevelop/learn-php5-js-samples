@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05.05.2014, 18:57:55
+    Author     : ADMIN
+*/
+
+#navcontainert
+{
+background: #369;
+border-top: 1px solid #9CC;
+font: normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#navlistt
+{
+list-style: none outside none;
+margin: 0;
+padding-top: 25px;
+}
+
+@media all {
+#navlistt {
+text-align: center
+}
+}
+
+#navlistt li
+{
+bottom: 11px;
+display: inline;
+line-height: 1.2em;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+div #navlistt li
+{
+background: #000;
+margin: 0 3px 0 0;
+padding: 4px 0px 4px 0;
+}
+
+#navlistt a, #navlistt a:link, #navlistt a:visited
+{
+background: #900;
+border: 1px solid #FFF;
+bottom: 2px;
+color: #FFF;
+cursor: pointer;
+display: inline;
+height: 1em;
+margin: 0;
+padding: 3px 5px 3px 5px;
+position: relative;
+right: 2px;
+text-decoration: none;
+}
+
+#navlistt a:hover
+{
+background: #C00;
+bottom: 1px;
+color: #FFF;
+position: relative;
+right: 1px;
+}
+
+#navlistt a:active
+{
+background: #999;
+bottom: 0px;
+color: #FFF;
+position: relative;
+right: 0px;
+}
+
+#navlistt li#active
+{
+background: #369;
+bottom: 13px;
+display: inline;
+margin: 0 3px 0 0;
+padding: 0;
+position: relative;
+}
+
+div #navlistt li#active
+{
+background: #000;
+margin: 0 4px 0 4px;
+}
+
+#navlistt #active a, #navlistt #active a:link, #navlistt #active a:visited, #navlistt #active a:hover
+{
+background: #369;
+border-bottom: none;
+border-left: 1px solid #9CC;
+border-right: 1px solid #9CC;
+border-top: 1px solid #9CC;
+bottom: 0;
+color: #FFF;
+cursor: text;
+margin: 0;
+padding: 2px 5px 0 5px;
+position: relative;
+right: 0;
+}
