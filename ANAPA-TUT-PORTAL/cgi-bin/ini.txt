@@ -1,0 +1,4 @@
+localhost
+ANAPATUT
+root
+123456

@@ -1,0 +1,6 @@
+<Limit GET POST>
+	require valid-user
+</Limit>
+AuthType Basic
+AuthName "webstat"
+AuthUserFile /var/www/psdev120/data/etc/anapa-tut.ru.stat.passwd

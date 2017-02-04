@@ -1,0 +1,243 @@
+.logo_text {
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF3300;
+	background-color: #FFFF00;
+}
+.top_text {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+.top_pop_hotel_img {
+	height:90px;
+	width:68px;
+	border-width:3px;
+	border-color:#ff0000;
+}
+.best_hotel_img {
+	height:120px;
+	width:90px;
+	border-width:1px;
+	border-color:#ff0000;
+}
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: #006699;
+}
+a:visited {
+	font-family: Arial;
+	text-decoration: none;
+	font-weight: bold;
+	color: #006699;
+}
+a:hover {
+	font-family: Arial;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFF00;
+	background-color: #66CCFF;
+}
+a:active {
+	font-family: Arial;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFF00;
+	background-color: #66CCFF;
+}
+#navcontainer { }
+#navcontainer a { text-decoration: none; }
+
+#navcontainer ul
+{
+padding: 0;
+margin: 0;
+list-style-type: none;
+position: relative;
+}
+
+#navcontainer li { display: inline; }
+
+/*1st level elements*/
+#navcontainer ul
+{
+border-top: 1px solid #36c;
+border-bottom: 1px solid #36c;
+background-color: #36c;
+padding: 2px 0;
+
+}
+
+#navcontainer li { margin: 0 0 0px; }
+
+#navcontainer ul a,
+#navcontainer ul a:link,
+#navcontainer ul a:visited
+{
+background-color: #36c;
+border: 1px solid #36c;
+color: #ff0;
+padding: 0px 5px;
+}
+
+#navcontainer ul a:hover,
+#navcontainer ul a:focus
+{
+background-color: #9CD4F7;
+border: 1px solid black;
+color: #fff;
+}
+
+/*current Link*/
+#navcontainer ul a#current,
+#navcontainer ul a#current:link,
+#navcontainer ul a#current:visited { font-weight: bold; }
+
+/*Second and subsequent levels*/
+#navcontainer ul ul
+{
+font-size: 80%;
+position: absolute;
+top: 23px;
+left: 0;
+width: 100%;
+border-top: none;
+background-color: #95B1BB;
+}
+
+#navcontainer ul ul li { display: inline; }
+
+#navcontainer ul ul a,
+#navcontainer ul ul a:link,
+#navcontainer ul ul a:visited
+{
+background-color: #95B1BB;
+border: 1px solid #95b1bb;
+color: #fff;
+}
+
+#navcontainer ul ul a:hover,
+#navcontainer ul ul a:focus
+{
+background-color: #9CD4F7;
+border: 1px solid black;
+color: #fff;
+}
+
+/*current Link*/
+#navcontainer ul ul a#subcurrent,
+#navcontainer ul ul a#subcurrent:link,
+#navcontainer ul ul a#subcurrent:visited { font-weight: bold; }
+
+#pop_tabs_navcontainer
+{
+padding: 0;
+background: #1DD11D;
+color: #FFF;
+height: 20px;
+}
+
+#pop_tabs_navlist
+{
+margin: 0px;
+padding: 0px 0px;
+display: block;
+}
+
+#pop_tabs_navlist li
+{
+list-style: none;
+float: left;
+}
+
+#pop_tabs_navcontainer a, #pop_tabs_navlist li.extend
+{
+margin: 0px;
+display: block;
+border-top: 1px solid #333;
+padding: 1px 6px;
+text-decoration: none;
+background: #1DD11D;
+font: normal 12px verdana, serif;
+color: #FFF;
+}
+
+#pop_tabs_navcontainer a:hover, #pop_tabs_navcontainer a#pop_tabs_current
+{
+padding: 1px 5px;
+background: #FAFAFA;
+border-right: 1px solid #333;
+border-left: 1px solid #333;
+border-top: 1px solid #FAFAFA;
+border-bottom: 1px solid #333;
+color: #000;
+text-decoration:none;
+}
+
+#pop_tabs_navcontainer a#pop_tabs_current
+{
+background: #F6F6F6;
+border-top: 1px solid #F6F6F6;
+font-weight: bold;
+}
+
+#pop_tabs_navcontainer li#pop_tabs_active
+{
+border-right: 2px solid #828282;
+border-bottom: 2px solid #828282;
+}
+
+a.a_exp .img_exp {
+	height:86px;
+	cursor:url('images/11.cur');
+	}
+a.a_exp .img_exp img {
+	height:86px;
+	cursor:url('images/11.cur');
+	z-index:150;
+        border: 1px solid #D5FF93;
+	}
+a.a_exp:hover .img_exp {
+	height:86px;
+	overflow:visible;
+	visibility:hidden;
+	}
+a.a_exp:hover .img_exp img {
+	visibility:visible;
+	z-index:150;
+	}
+	
+a.a_exp .img_exp_shadow {
+	height:86px;
+	cursor:url('images/11.cur');
+	float:left;
+        background: url('../images/shadowAlpha.png') no-repeat 
+        bottom right !important;
+        background: url('../images/shadow.gif') no-repeat bottom right;
+        margin: 5px 0 0 5px !important;
+        margin: 5px 0 0 5px;
+	}
+a.a_exp .img_exp_shadow img {
+	height:86px;
+	cursor:url('images/11.cur');
+	z-index:150;
+	display: block;
+        position: relative;
+        vertical-align: 1px;
+        background-color: #fff;
+        border: 1px solid #D5FF93;
+        margin: -6px 6px 6px -6px;
+        padding: 1px;
+	}
+a.a_exp:hover .img_exp_shadow {
+	height:86px;
+	overflow:visible;
+	visibility:hidden;
+	}
+a.a_exp:hover .img_exp_shadow img {
+	visibility:visible;
+	z-index:150;
+	}	
